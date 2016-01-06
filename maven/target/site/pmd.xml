@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2016-01-06T17:59:40.463">
+<file name="H:\M1\SIR\maven\src\main\java\org\apache\maven\maven\App.java">
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="12" rule="UnconditionalIfStatement" ruleset="Basic Rules" package="org.apache.maven.maven" class="App" method="main" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UnconditionalIfStatement" priority="3">
+Do not use if statements that are always true or always false
+</violation>
+</file>
+</pmd>
