@@ -14,7 +14,7 @@ public class App {
     if (true){
     	System.out.print(true);
     }else{
-    	System.out.print("ok");
+    	System.out.print("ok test");
     }
   }
 }
