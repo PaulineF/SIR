@@ -1,672 +1,708 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changelog>
   
-<changeset datePattern="yyyyMMdd HH:mm:ss z" start="20151207 17:58:23 CET" end="20160107 17:58:23 CET">
+<changeset datePattern="yyyyMMdd HH:mm:ss z" start="20151208 10:23:28 CET" end="20160108 10:23:28 CET">
 	<changelog-entry>
 		<date pattern="yyyy-MM-dd">2016-01-06</date>
-		<time pattern="HH:mm:ss">17:51:31</time>
+		<time pattern="HH:mm:ss">18:14:16</time>
+		<author><![CDATA[PaulineF <flambard.pauline@laposte.net>]]></author>
+		<file>
+			<action>modified</action>
+			<name>maven/src/main/java/org/apache/maven/maven/App.java</name>
+			<revision>4bfc4244802d0709629f0c6a9123803ae1e3f71f</revision>
+		</file>
+		<msg><![CDATA[test]]></msg>
+	</changelog-entry>
+	<changelog-entry>
+		<date pattern="yyyy-MM-dd">2016-01-06</date>
+		<time pattern="HH:mm:ss">18:13:39</time>
 		<author><![CDATA[PaulineF <flambard.pauline@laposte.net>]]></author>
 		<file>
 			<action>added</action>
-			<name>.classpath</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/.classpath</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>.project</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/.project</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>.settings/org.eclipse.core.resources.prefs</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/.settings/org.eclipse.core.resources.prefs</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>.settings/org.eclipse.jdt.core.prefs</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/.settings/org.eclipse.jdt.core.prefs</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>.settings/org.eclipse.m2e.core.prefs</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/.settings/org.eclipse.m2e.core.prefs</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>pom.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/pom.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>src/main/java/org/apache/maven/maven/App.java</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/src/main/java/org/apache/maven/maven/App.java</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>src/test/java/org/apache/maven/maven/AppTest.java</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/src/test/java/org/apache/maven/maven/AppTest.java</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/.gitignore</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/.gitignore</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/basic.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/basic.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/checkstyle-cachefile</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/changelog.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/checkstyle-checker.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/checkstyle-cachefile</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/checkstyle-result.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/checkstyle-checker.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/cobertura/cobertura.ser</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/checkstyle-result.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/cpd.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/cobertura/cobertura.ser</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/generated-classes/cobertura/cobertura.properties</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/cpd.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/generated-classes/cobertura/org/apache/maven/maven/App.class</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/generated-classes/cobertura/cobertura.properties</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/imports.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/generated-classes/cobertura/org/apache/maven/maven/App.class</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/imports.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/javadoc-bundle-options/package-list</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/maven-0.0.1-SNAPSHOT.jar</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/javadoc-bundle-options/package-list</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/maven-archiver/pom.properties</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/maven-0.0.1-SNAPSHOT.jar</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/maven-archiver/pom.properties</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/pmd.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/allclasses-frame.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/pmd.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/allclasses-noframe.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/allclasses-frame.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/constant-values.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/allclasses-noframe.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/deprecated-list.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/constant-values.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/help-doc.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/deprecated-list.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/index-all.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/help-doc.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/index.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/index-all.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/org/apache/maven/maven/App.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/index.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/org/apache/maven/maven/class-use/App.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/org/apache/maven/maven/App.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/org/apache/maven/maven/package-frame.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/org/apache/maven/maven/class-use/App.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/org/apache/maven/maven/package-summary.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/org/apache/maven/maven/package-frame.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/org/apache/maven/maven/package-tree.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/org/apache/maven/maven/package-summary.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/org/apache/maven/maven/package-use.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/org/apache/maven/maven/package-tree.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/overview-tree.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/org/apache/maven/maven/package-use.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/package-list</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/overview-tree.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/script.js</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/package-list</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/apidocs/stylesheet.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/script.js</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/checkstyle.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/apidocs/stylesheet.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/checkstyle.rss</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/changelog.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/css/help.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/checkstyle.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/css/main.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/checkstyle.rss</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/css/sortabletable.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/css/help.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/css/source-viewer.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/css/main.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/css/tooltip.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/css/sortabletable.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/frame-packages.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/css/source-viewer.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/frame-sourcefiles-org.apache.maven.maven.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/css/tooltip.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/frame-sourcefiles.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/frame-packages.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/frame-summary-org.apache.maven.maven.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/frame-sourcefiles-org.apache.maven.maven.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/frame-summary.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/frame-sourcefiles.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/help.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/frame-summary-org.apache.maven.maven.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/images/blank.png</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/frame-summary.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/images/downsimple.png</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/help.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/images/upsimple.png</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/images/blank.png</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/index.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/images/downsimple.png</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/js/customsorttypes.js</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/images/upsimple.png</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/js/popup.js</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/index.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/js/sortabletable.js</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/js/customsorttypes.js</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/js/stringbuilder.js</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/js/popup.js</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cobertura/org.apache.maven.maven.App.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/js/sortabletable.js</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cpd.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/js/stringbuilder.js</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/cpd.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cobertura/org.apache.maven.maven.App.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/css/maven-base.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cpd.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/css/maven-theme.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/cpd.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/css/print.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/css/maven-base.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/css/site.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/css/maven-theme.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/dependencies.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/css/print.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/dependency-convergence.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/css/site.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/dependency-info.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/dependencies.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/close.gif</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/dependency-convergence.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/collapsed.gif</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/dependency-info.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/expanded.gif</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/dev-activity.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/external.png</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/file-activity.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/icon_error_sml.gif</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/close.gif</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/icon_info_sml.gif</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/collapsed.gif</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/icon_success_sml.gif</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/expanded.gif</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/icon_warning_sml.gif</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/external.png</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/logos/build-by-maven-black.png</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/icon_error_sml.gif</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/logos/build-by-maven-white.png</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/icon_info_sml.gif</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/logos/maven-feather.png</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/icon_success_sml.gif</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/newwindow.png</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/icon_warning_sml.gif</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/images/rss.png</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/logos/build-by-maven-black.png</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/index.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/logos/build-by-maven-white.png</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/plugin-management.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/logos/maven-feather.png</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/plugins.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/newwindow.png</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/pmd.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/images/rss.png</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/pmd.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/index.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/project-info.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/plugin-management.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/project-reports.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/plugins.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/project-summary.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/pmd.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/allclasses-frame.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/pmd.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/allclasses-noframe.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/project-info.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/constant-values.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/project-reports.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/deprecated-list.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/project-summary.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/help-doc.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/source-repository.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/index-all.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/allclasses-frame.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/index.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/allclasses-noframe.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/org/apache/maven/maven/AppTest.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/constant-values.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/org/apache/maven/maven/class-use/AppTest.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/deprecated-list.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/org/apache/maven/maven/package-frame.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/help-doc.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/org/apache/maven/maven/package-summary.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/index-all.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/org/apache/maven/maven/package-tree.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/index.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/org/apache/maven/maven/package-use.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/org/apache/maven/maven/AppTest.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/overview-tree.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/org/apache/maven/maven/class-use/AppTest.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/package-list</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/org/apache/maven/maven/package-frame.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/script.js</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/org/apache/maven/maven/package-summary.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/testapidocs/stylesheet.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/org/apache/maven/maven/package-tree.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref-test/allclasses-frame.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/org/apache/maven/maven/package-use.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref-test/index.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/overview-tree.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref-test/org/apache/maven/maven/AppTest.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/package-list</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref-test/org/apache/maven/maven/package-frame.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/script.js</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref-test/org/apache/maven/maven/package-summary.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/testapidocs/stylesheet.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref-test/overview-frame.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref-test/allclasses-frame.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref-test/overview-summary.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref-test/index.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref-test/stylesheet.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref-test/org/apache/maven/maven/AppTest.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref/allclasses-frame.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref-test/org/apache/maven/maven/package-frame.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref/index.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref-test/org/apache/maven/maven/package-summary.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref/org/apache/maven/maven/App.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref-test/overview-frame.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref/org/apache/maven/maven/package-frame.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref-test/overview-summary.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref/org/apache/maven/maven/package-summary.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref-test/stylesheet.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref/overview-frame.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref/allclasses-frame.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref/overview-summary.html</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref/index.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/site/xref/stylesheet.css</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref/org/apache/maven/maven/App.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/surefire-reports/TEST-org.apache.maven.maven.AppTest.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref/org/apache/maven/maven/package-frame.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/surefire-reports/org.apache.maven.maven.AppTest.txt</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref/org/apache/maven/maven/package-summary.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
 		<file>
 			<action>added</action>
-			<name>target/unusedcode.xml</name>
-			<revision>f5a71bd8f0ef1e30350bf590916de62f040e96f8</revision>
+			<name>maven/target/site/xref/overview-frame.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
 		</file>
-		<msg><![CDATA[first commit]]></msg>
+		<file>
+			<action>added</action>
+			<name>maven/target/site/xref/overview-summary.html</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>maven/target/site/xref/stylesheet.css</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>maven/target/surefire-reports/TEST-org.apache.maven.maven.AppTest.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>maven/target/surefire-reports/org.apache.maven.maven.AppTest.txt</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>maven/target/unusedcode.xml</name>
+			<revision>00405172979bfba4a291479213ab43824e31aa20</revision>
+		</file>
+		<msg><![CDATA[2 commit]]></msg>
 	</changelog-entry>
 </changeset>
 
